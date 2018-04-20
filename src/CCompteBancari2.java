@@ -34,8 +34,6 @@ public class CCompteBancari2 {
     }
     public CCompteBancari2(CCompteBancari obj) {
         this.numero = seguentcompte;
-        this.propietari = obj.propietari;
-        this.saldo = obj.saldo;
         saldoinicial = 100;
         seguentcompte = seguentcompte + 1;
     }
