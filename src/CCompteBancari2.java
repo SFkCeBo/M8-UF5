@@ -8,21 +8,31 @@
  *
  * @author marc
  */
-public class CCompteBancari {
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author marc
+ */
+public class CCompteBancari2 {
     private int numero;
     private CPersona propietari;
     private float saldo;
-    private static float saldoinicial = 200;
+    private static float saldoinicial = 100;
     private static int seguentcompte = 1234;
     private static float newsaldo;
 
-    public CCompteBancari(CPersona propietari) {
+    public CCompteBancari2(CPersona propietari) {
         this.numero = seguentcompte;
         this.propietari = propietari;
         this.saldo = saldoinicial;
         seguentcompte = seguentcompte + 1;
     }
-    public CCompteBancari(CCompteBancari obj) {
+    public CCompteBancari2(CCompteBancari obj) {
         this.numero = seguentcompte;
         this.propietari = obj.propietari;
         this.saldo = obj.saldo;
