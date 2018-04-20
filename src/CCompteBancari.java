@@ -82,6 +82,8 @@ public class CCompteBancari {
             return false;
         } 
     }
-
+    public void saludo2(){
+        System.out.println("Holii");
+    }
     
 }
