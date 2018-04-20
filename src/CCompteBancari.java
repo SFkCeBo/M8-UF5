@@ -74,6 +74,10 @@ public class CCompteBancari {
         
     }
     
+    public void saludos(){
+         System.out.println("SALUDOS");
+    }
+    
      public boolean extraer(int comptesecret, float saldoext){
             if(this.propietari.getNsecret() == comptesecret){
                 this.saldo = saldo - saldoext;
